@@ -1,0 +1,35 @@
+body {
+  background-color: rgb(230,230,230);
+  background-color: rgba(230,230,230, 0.7);
+}
+
+div.cv_page {
+  border: 1px solid white;
+  background-color: rgb(253,253,253);
+  max-width: 1000px;
+  width: 100%;
+}
+
+address.cv_address {
+  font-size: 1em
+}
+
+a.cv_email:after {
+  content: 'Email';
+}
+
+a.cv_email:after {
+  content: 'Jurkiewicz.Krzysztof2@gmail.com';
+}
+/*
+div.cv_photo img {
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+*/
+.cv_company {
+  text-emphasis: bold;
+}
+
+.section_header {
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+}
